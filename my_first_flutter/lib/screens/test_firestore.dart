@@ -44,6 +44,8 @@ class _TestFirestoreState extends State<TestFirestore> {
         },
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.teal,
+        hoverColor: Colors.blueGrey,
         onPressed: () {
           // Create a new user with a first and last name
           final user = <String, dynamic>{
@@ -56,7 +58,10 @@ class _TestFirestoreState extends State<TestFirestore> {
           db.collection("users").add(user).then((DocumentReference doc) =>
               print('DocumentSnapshot added with ID: ${doc.id}'));
         },
-        child: Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
       ),
     );
   }
