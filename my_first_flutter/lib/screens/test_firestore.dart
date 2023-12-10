@@ -47,9 +47,9 @@ class _TestFirestoreState extends State<TestFirestore> {
         onPressed: () {
           // Create a new user with a first and last name
           final user = <String, dynamic>{
-            "first": "Ada",
-            "last": "Lovelace",
-            "born": 1825,
+            "first": "John Doe",
+            "last": "Savage",
+            "born": 2000,
           };
 
 // Add a new document with a generated ID
