@@ -14,7 +14,6 @@ class _TestFirestoreState extends State<TestFirestore> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('HOME'),
         backgroundColor: Colors.teal,
         title: Text('Home Firestore'),
       ),
