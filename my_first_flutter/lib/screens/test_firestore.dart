@@ -13,7 +13,9 @@ class _TestFirestoreState extends State<TestFirestore> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.teal,
+      ),
       body: StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
         stream: db.collection('users').snapshots(),
         builder: (context, snapshot) {
