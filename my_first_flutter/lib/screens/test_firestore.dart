@@ -15,6 +15,7 @@ class _TestFirestoreState extends State<TestFirestore> {
     return Scaffold(
       appBar: AppBar(
         title: Text('HOME'),
+        backgroundColor: Colors.teal,
       ),
       body: StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
         stream: db.collection('users').snapshots(),
