@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       title: 'Flutter Auth Ini adalah branch pertama',
+      title: 'Flutter Auth ini adalah branch dua ',
+
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
